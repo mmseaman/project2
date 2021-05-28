@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Serenity</title>
+<link href="questions.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+</script>
+</head>
+
+<body  style="background-color: moccasin">
+<header>
+<a href="../index.html"><img class="logo" src="../images/SpaceY_logo_03.png" alt=""/></a>
+<h1>Do you have the Right Stuff?</h1>
+<h2>Serenity</h2><hr><hr>
+<h3>You will need to relax on Mars...</h3><hr>
+</header>
+
+<h4>You you spend time on Mars, things will come up, irritating things, things that are annoying, things that disturb. <br>But one must deal with it by staying calm at all times.</h4>
+
+<div style="justify-content: center; display: flex" >
+<img id="photoeffect" src="../images/Apollo1.jpg" width="510" height="387" style="visibility: hidden" alt=""/> 
+</div><hr><hr><br>
+
+<audio id="audio_00" ><source src="../audio/Scream_01.mp3" type="audio/mp3"></audio>
+    
+<form action=""><input type="button" onMouseMove="MM_changeProp('photoeffect','','visibility','visible','IMG')" onMouseOver="PlaySound('audio_00')" value="I Understand" ></form>
+    
+<footer>
+<br><form action="../whynotjoinus.html"><input type="submit" value="Remaining Questions"/></form>
+</footer>
+    
+<script>   
+    function PlaySound(sound) {
+        var thissound=document.getElementById(sound);
+        thissound.play();  
+    }
+</script>
+</body>
+</html>

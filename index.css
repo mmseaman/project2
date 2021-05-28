@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+}
+#container {
+  margin: 0;
+  position: absolute;
+}
+.main {
+  height: auto;
+  width: 100%; /*of the size of the browser*/
+}
+.marvins {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 18%;
+  left: 4%;
+  top: 45%;
+}
+.about {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 10%;
+  right: 3%;
+  top: 2%;
+}
+.logo {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 15%;
+  left: 5%;
+  top: 3.5%;
+}
+.words {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 40%;
+  left: 4%;
+  top: 20%;
+}
+.mountain {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 47%;
+  left: 0%;
+  bottom: 1%;
+}
+.rocket {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 80%;
+  left: 0%;
+  top: 10%;
+}
+.astro {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 75%;
+  right: 0%;
+  bottom: .50%;
+}

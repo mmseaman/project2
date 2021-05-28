@@ -1,0 +1,29 @@
+@charset "UTF-8";
+h1, h2, h3, div {
+  text-align: center;
+      color: blue;
+}
+body {background-color: lightgoldenrodyellow}
+input[type=submit] {
+  font-size: 14px;
+  background-color: paleturquoise;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 6px;
+}
+button {
+  background-color: red;
+  color: yellow;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 6px;
+  margin: 1px;
+}
+.logo {
+  display: block;
+  position: absolute;
+  height: auto;
+  width: 10%;
+  left: 3%;
+  top: 1.5%;
+}

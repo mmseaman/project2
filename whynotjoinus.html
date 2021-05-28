@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Right Stuff</title>
+<link href="whynotjoinus.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_DW_effectBlind(obj,method,effect,dir,speed)
+{
+    obj[method](effect, { direction: dir}, speed);
+}
+</script>
+</head>
+<body>
+<a href="index.html"><img class="logo" src="images/SpaceY_logo_03.png"/></a>
+<h1>Do you have the Right Stuff?</h1>
+<h2>Take the individual tests in the indicated order.</h2>
+<h3>Note: Every click you take, SpaceY will be watching you.</h3>
+
+<div>
+  <button type="button" onclick="alert('SpaceY is logging your every choice.')">Warning!</button><hr><br>
+  <form action="q/q1.html">
+    <input type="submit" value="1. Patience"/>
+  </form><br>
+  <form action="q/q2.html">
+    <input type="submit" value="2. Exploration"/>
+  </form><br>
+  <form action="q/q3.html">
+    <input type="submit" value="3. Ability to Learn"/>
+  </form><br>
+    <form action="q/q4.html">
+    <input type="submit" value="4. Serenity"/>
+  </form><br>
+    <form action="q/q5.html">
+    <input type="submit" value="5. Courage"/>
+  </form><br><hr><hr><br>
+  <form action="amiin.html">
+    <input type="submit" onMouseOver="MM_DW_effectBlind($(this),'hide','blind','vertical',2500)"  value="Final Evaluation"/>
+  </form><br>
+</div>
+</body>
+</html>
